@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Arrange Lesson - Ace Driving School</title>
+    <meta name="description" content="Arrange a driving lesson online.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <header>
+      <div class="Container">
+        <div class="Logo"><a href="index.html">
+            <h1>
+              Ace <br>
+              <span class='Logo-driving'>Driving</span><br>
+              <span class='Logo-school'>School</span>
+            </h1></a></div>
+        <nav class="undefined Navigation">
+          <ul>
+            <li class="Navigation-item is-current"><a href="arrange-lesson.html" class="Navigation-link">Arrange Lesson</a></li>
+            <li class="Navigation-item"><a href="prices.html" class="Navigation-link">Prices</a></li>
+            <li class="Navigation-item"><a href="contact.html" class="Navigation-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="Section">
+      <div class="Container">
+        <div class="Section-header">
+          <h1>Arrange a Lesson</h1>
+          <p>Book online and we'll call you to arrange a time for your first lesson.</p>
+        </div>
+        <div class="Section-content">
+          <div class="packages Row">
+            <div class="Col--6 Inset">
+              <div class="Form">
+                <div class="Form-header">
+                  <h2>Book a lesson</h2>
+                </div>
+                <form novalidate class="js-form">
+                  <div class="Slat">
+                    <label for="address"></label>
+                    <input name="address" id="address" type="text" placeholder="Pickup address &amp; suburb" autofocus class="Form-input">
+                  </div>
+                  <div class="Slat">
+                    <label>Package</label>
+                    <select>
+                      <option>Pay-as-you-go ($50/hour)</option>
+                      <option>Value Pack ($200)</option>
+                      <option>Your L's to P's ($600)</option>
+                    </select>
+                  </div>
+                  <div class="Slat">
+                    <label>Preferred Instructor (only if you have one)</label>
+                    <select class="js-instructorSelect">
+                      <option>No Preference</option>
+                      <option id="thierry">Thierry</option>
+                      <option id="jenny">Jenny</option>
+                      <option id="boris">Boris</option>
+                      <option id="trisha">Trisha</option>
+                      <option id="sergey">Sergey</option>
+                      <option id="aaron">Aaron</option>
+                      <option id="steve">Steve</option>
+                      <option id="james">James</option>
+                    </select>
+                  </div>
+                  <div class="Slat">
+                    <label>Transmission</label>
+                    <div class="Form-radio">
+                      <input type="radio" name="transmission" class="Form-radioButton"><span class="Form-radioLabel">manual</span>
+                    </div>
+                    <div class="Form-radio">
+                      <input type="radio" name="transmission" class="Form-radioButton"><span class="Form-radioLabel">auto</span>
+                    </div>
+                  </div>
+                  <div class="Slat">
+                    <label for="name"></label>
+                    <input name="name" id="name" type="text" placeholder="Student Name" class="Form-input">
+                  </div>
+                  <div class="Slat">
+                    <label for="email"></label>
+                    <input name="email" id="email" type="email" placeholder="Email Address" class="Form-input">
+                  </div>
+                  <div class="Slat">
+                    <label for="mobile"></label>
+                    <input name="mobile" id="mobile" type="tel" placeholder="Mobile Number" class="Form-input">
+                  </div>
+                  <div class="Slat">
+                    <textarea placeholder="Extra information" rows="7" class="Form-input"></textarea>
+                  </div>
+                  <div class="Slat Form-footer">
+                    <button class="Button">Book it &rarr;</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="Col--6 u-centerText">
+              <h2>What Happens After I Make A Booking?</h2>
+              <ul class="List">
+                <li class="List-item"><span class='List-number'>1</span><br>One of our instructors will give you a call within 1 business day to talk about starting lessons. If you have selected a particular instructor, this is the instructor that will contact you.
+                </li>
+                <li class="List-item"><span class='List-number'>2</span><br>After chatting with your instructor, you are free to choose whether or not you wish to go ahead with lessons.
+                </li>
+                <li class="List-item"><span class='List-number'>3</span><br>If you wish to begin lessons, then you will be able to arrange the exact time and place for the first lesson.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="Footer">
+      <div class="Container">
+        <div class="Row">
+          <nav class="Col--4">
+            <ul class="Footer-list">
+              <h4 class="Footer-listHeading">Main</h4>
+              <li class="Footer-listItem"><a href="index.html" class="Footer-link">Home</a></li>
+              <li class="Footer-listItem"><a href="prices.html" class="Footer-link">Prices</a></li>
+              <li class="Footer-listItem"><a href="arrange-lesson.html" class="Footer-link">Book Lesson</a></li>
+              <li class="Footer-listItem"><a href="contact.html" class="Footer-link">Contact</a></li>
+            </ul>
+          </nav>
+          <nav class="Col--4">
+            <ul class="Footer-list">
+              <h4 class="Footer-listHeading">More</h4>
+              <li class="Footer-listItem"><a href="services.html" class="Footer-link">Services</a></li>
+              <li class="Footer-listItem"><a href="our-instructors.html" class="Footer-link">Our Instructors</a></li>
+              <li class="Footer-listItem"><a href="about.html" class="Footer-link">About</a></li>
+            </ul>
+          </nav>
+          <nav class="Col--4">
+            <ul class="Footer-list">
+              <h4 class="Footer-listHeading">Employment</h4>
+              <li class="Footer-listItem"><a href="become-an-instructor.html" class="Footer-link">Become an Instructor</a></li>
+              <li class="Footer-listItem"><a href="instructor-application.html" class="Footer-link">Instructor Application</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="Row Footer-copyright">&copy; Ace Driving School 2014</div>
+      </div>
+    </footer>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/jquery.validate.js"></script>
+    <script src="scripts/book.js"></script>
+  </body>
+</html>
